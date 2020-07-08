@@ -20,12 +20,12 @@ body{
     border: 2px solid red;
 }
 .img-logo{
-    position: fixed;
+    position: absolute;
     width: 198.07px;
     height: 59px;
 }
 .container.fluid{
-    position: fixed;
+    position: absolute;
 }
 .nav-item{
     display: flex;
