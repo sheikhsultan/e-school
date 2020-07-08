@@ -10,38 +10,230 @@
 
 </head>
 <body>
-    <section id="bg-clr">
-      <div class="container.fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img id="img-logo" src="images/icon/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Books<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Courses</a>
-            <a class="nav-item nav-link" href="#">Others</a>
-            <a class="nav-item nav-link" href="#">Blog</a>
-            <button id="all-btn" class="all-btn nav-item">Sing in</button>
+    <header id="header-section" class="container-fluid">
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand" href="#"><img src="images/icon/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse justify-content-end navbar-collapse aliggn-items-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Books <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link active" href="#">Courses</a>
+              <a class="nav-item nav-link active" href="#">Others</a>
+              <a class="nav-item nav-link active" href="#">Blog</a>
+              <button id="sing-in-btn" class="all-btn nav-item">Sing in</button>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
       </div>
+      
+      <div class="container banner-item">
+        <section class="row justify-content-between align-items-center banner">
+            <div class="col-md-5">
+              <p id="banner-p-1">Are you ready to learn?</p>
+              <h1>Learn With fun <br> on <span class="text-success" >any schedule</span></h1>
+              <p id="banner-p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In corrupti nobis ducimus accusantium.</p><br>
+              <button class="all-btn">Get Started</button>
+            </div>
+            <div class="col-md-7">
+              <img class="img-fluid" src="images/photo/Illustration.png" alt="">
+            </div>
+        </section>
+      </div>
+    </header>
 
-      <div class="row">
-        <div class="col-md-5">
+    <!-- books section -->
 
-        </div>
-        <div class="col-md-7">
-          <img src="images/photo/Illustration.png" alt="">
+
+    <section id="book-items">
+      <div class="container">
+        <div class="row book-img d-flex justify-content-between align-items-center">
+  
+          <div class="col-md-3">
+            <div class="books">
+              <div>
+                <img id="book-1" src="images/icon/book.png" alt="">
+              </div>
+              <div>
+                <h5>1500+ Topic</h5>
+                <p>Learn Anythings</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="books">
+              <div>
+                <img id="book-2" src="images/icon/student.png" alt="">
+             </div>
+             <div>
+                 <h5>1800+ Students</h5> 
+                 <p>Learn Anythings</p>
+             </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="books">
+              <div>
+              <img id="book-3" src="images/icon/test.png" alt="">
+            </div>
+            <div>
+              <h5>9K+ Test Token</h5>
+              <p>Learn Anythings</p>
+            </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="books">
+              <div>
+                <img id="book-4" src="images/icon/students.png" alt="">
+              </div>
+              <div>
+                <h5>2000+ Student</h5>
+                <p>Learn Anythings</p>
+              </div>
+            </div>
+          </div>
+  
         </div>
       </div>
+      
     </section>
 
-    
+    <!-- card section -->
 
+    <div class="container">
+      <div>
+        <h2 class="text-center">Online Courses</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/photo/Morder pyschology.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Modern Work Station</h5>
+              <p class="card-text">We help to reach you at your best level</p><br>
+              <button class="all-btn">Buy Courses</button>
+              <div class="d-flex justify-content-between card-footer-content">
+                <p class="card-text"><img class="img-icon" src="images/icon/calendar.png" alt=""><small
+                        class="text-muted">Start 20 April, 2021</small></p>
+                <p class="card-text"><img class="img-icon" src="images/icon/people.png" alt=""><small
+                        class="text-muted">60 seats</small></p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/photo/Morder psyc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">We help to reach you at your best level</p><br>
+              <button class="all-btn">Buy Courses</button>
+              <div class="d-flex justify-content-between card-footer-content">
+                <p class="card-text"><img class="img-icon" src="images/icon/calendar.png" alt=""><small class="text-muted">Start 20 April, 2021</small></p>
+                <p class="card-text"><img class="img-icon" src="images/icon/people.png" alt=""><small class="text-muted">60 seats</small></p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/photo/Morder pychons.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full-Stock Developing</h5>
+              <p class="card-text">We produce one of the best Developers</p><br>
+              <button class="all-btn">Buy Courses</button>
+              <div class="d-flex justify-content-between card-footer-content">
+                <p class="card-text"><img class="img-icon" src="images/icon/calendar.png" alt=""><small class="text-muted">Start 20 April, 2021</small></p>
+                <p class="card-text"><img class="img-icon" src="images/icon/people.png" alt=""><small class="text-muted">60 seats</small></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- testimonial section start here -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="testimonial-head">
+                <h1>Testimonial</h1>
+            </div>
+            <div class="row testimonial-body">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 d-flex justify-content-end align-items-center">
+                    <img class="img-fluid w-25" src="images/photo/Man.png" alt="">
+                    <p class="testimonial-text">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour,
+                        or randomised words which don't look even slightly believable.</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section end here -->
+
+    <!-- footer section start here -->
+    <footer id="footer-section">
+        <div class="container pt-10 text-white">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="footers-info mt-3">
+                        <p>Millions of people of all ages and from around
+                            the world are improving their lives with us</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 d-flex justify-content-center">
+                    <div>
+                        <h5>Course</h5>
+                        <ul class="list-unstyled">
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 d-flex justify-content-center">
+                    <div>
+                        <h5>Terms</h5>
+                        <ul class="list-unstyled">
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 d-flex align-items-end">
+                    <div>
+                        <h5>Useful Link</h5>
+                        <ul class="list-unstyled">
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="copyright d-flex justify-content-center align-items-center">
+                        <p> Copyright © 2020 Programming-hero.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
